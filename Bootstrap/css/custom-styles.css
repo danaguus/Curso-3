@@ -1,0 +1,128 @@
+* {
+  font-family: 'Indie Flower', cursive !important;
+  animation-fill-mode: backwards !important;
+}
+
+.c-brown-light {
+  background-color: #d7ccc8;
+}
+.c-shadow {
+  -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  width: 100% !important;
+}
+.c-article {
+  border-radius: 4px;
+  min-height: 15vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 1rem 1rem 1.5rem 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0 14px 22px 1px rgba(0, 0, 0, 0.14), 0 4px 28px 3.5px rgba(0, 0, 0, 0.12), 0 6px 8px -3.5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 14px 22px 1px rgba(0, 0, 0, 0.14), 0 4px 28px 3.5px rgba(0, 0, 0, 0.12), 0 6px 8px -3.5px rgba(0, 0, 0, 0.3);
+}
+
+.c-img {
+
+}
+.c-img.tiny {
+  height: 1rem;
+}
+.c-img.small {
+  height: 2rem;
+}
+.c-img.medium {
+  height: 4rem;
+}
+.c-img.large {
+  height: 6rem;
+}
+.c-img.rounded-circle {
+  border: 2px solid rgba(49, 27, 146, 0.4);
+  -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+}
+.c-img.small.hoverable {
+  transition: transform 0.6s;
+}
+.c-img.small.hoverable:hover {
+  transform: scale(1.1);
+}
+
+.c-btn {
+  background-color: transparent;
+}
+.c-btn:hover {
+  background-color: rgba(161, 136, 127, 0.6);
+}
+.c-btn:focus {
+  background-color: #bcaaa4;
+  box-shadow: 1px 1px 1px 1px rgba(62, 39, 35, 0.3), -1px -1px 1px 1px rgba(62, 39, 35, 0.3);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(62, 39, 35, 0.3), -1px -1px 1px 1px rgba(62, 39, 35, 0.3);
+}
+
+.list-group > .list-group-item:nth-child(odd) {
+  background-color: rgba(209, 196, 233, 0.3);
+}
+.list-group > .list-group-item:nth-child(even) {
+  background-color: rgba(159, 168, 218, 0.3);
+}
+.list-group > .list-group-item {
+  font-weight: bold;
+  filter: brightness(40%);
+  transition: transform 0.6s, filter 0.8s;
+}
+.list-group > .list-group-item:hover {
+  filter: brightness(100%);
+  transform: scaleX(1.04);
+}
+
+.c-place-animation {
+  animation-name: place-animation;
+  animation-duration: 1s;
+}
+.c-delay-1 {
+  animation-delay: 0.5s;
+}
+.c-delay-2 {
+  animation-delay: 1s;
+}
+
+/* Configuración personalizada para pantallas
+   extra-pequeñas (basado en la medición que realiza Bootstrap) */
+@media (max-width: 575px) {
+  .c-btn {
+    background-color: rgba(188, 170, 164, 0.2) !important;
+  }
+  .c-btn:hover {
+    background-color: rgba(161, 136, 127, 1) !important;
+  }
+  /* Personalizamos el espacio de la fila para pantallas extra pequeñas */
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* Sección de animaciones */
+@keyframes place-animation {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <title>La música nos mueve</title>
+  <!-- *BEGIN* - Realizamos la asociación de los archivos css para los estilos - *BEGIN*  -->
+    <!-- css de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- css de Google para la fuente Indie Flower -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <!-- css personalizado (mis estilos propios) -->
+    <link rel="stylesheet" href="css/custom-styles.css">
+  <!-- *END* - Realizamos la asociación de los archivos css para los estilos - *END*  -->
+  </head>
+  <body>
+    <div class="container mb-4">
+    <!-- Encabezado de la página -->
+      <header class="c-brown-light c-shadow pb-2 pb-sm-0 c-place-animation">
+        <div class="row">
+          <!-- Contenedor del logo -->
+          <div class="col-12 col-sm-3 col-md-2 d-flex align-items-center justify-content-center">
+            <img src="img/logo.png" class="c-img large rounded-circle float-left mx-4 my-2"/>
+          </div>
+          <!-- Contenedor de los iconos de redes sociales -->
+          <div class="col-12 col-sm-9 col-md-10 d-flex align-items-sm-end justify-content-sm-end align-items-center justify-content-center">
+            <img src="img/social/fb.png" class="c-img small hoverable rounded mx-1 my-3" />
+            <img src="img/social/tw.png" class="c-img small hoverable rounded mx-1 my-3"/>
+            <img src="img/social/in.png" class="c-img small hoverable rounded mx-1 my-3"/>
+            <img src="img/social/ws.png" class="c-img small hoverable rounded my-3 ml-1 mr-md-5 mr-sm-3 mr-1"/>
+          </div>
+        </div>
+        <!-- Fila contenedora de los botones del menú -->
+        <div clas="row">
+          <div class="col-12 d-inline-flex flex-column flex-sm-row justify-content-sm-between flex-wrap py-sm-2">
+            <button type="button" class="btn c-btn">Inicio</button>
+            <button type="button" class="btn c-btn">Artistas</button>
+            <button type="button" class="btn c-btn">Grupos</button>
+            <button type="button" class="btn c-btn">Top 10</button>
+            <button type="button" class="btn c-btn">Letras</button>
+            <button type="button" class="btn c-btn">Acordes</button>
+          </div>
+        </div>
+      </header>
+      <!-- Fila para el contenido del cuerpo -->
+      <div class="row mt-4 d-flex flex-column-reverse flex-md-row c-place-animation">
+        <!-- Contenedor de las publicaciones -->
+        <div class="col-12 col-md-8 col-lg-9 pl-0 c-place-animation c-delay-1">
+          <!-- Publicación Metallica -->
+          <div class="row c-article flex-column">
+            <div class="row d-flex flex-column-reverse flex-lg-row-reverse">
+              <!-- Contenedor de la imagen de la publicación -->
+              <div class="col-12 col-lg-6">
+                <img src="img/metallica.jpg" class="img-thumbnail" />
+              </div>
+              <!-- Contenedor del texto de la publicación -->
+              <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+                <h3>El debut de Metallica...</h3>
+                <p>El debut de Metallica en directo tendría lugar el 14 de marzo de 1982 en el club Radio City de Anaheim, en una actuación en la que la falta de experiencia sobre el escenario ocasionó serios problemas a la banda. Dos semanas más tarde tendrían la oportunidad de enmendar su error abriendo dos noches seguidas para los ingleses Saxon en el local Whiskey-A-Go-Go de Los Ángeles. Cabe decir que dentro del libreto del álbum de versiones que la banda realizó en 1998 titulado Garage Inc pueden encontrarse reproducidas las notas que el propio Ulrich tomó en aquel momento sobre la marcha de estos dos conciertos, incluyendo los setlists de ambas noches y las impresiones del batería sobre la marcha de las mismas.</p>
+              </div>
+            </div>
+            <!-- Contenedor del área de comentarios -->
+            <div class="col-12 mt-3 mt-lg-0 px-0 px-sm-1">
+              <form>
+                <div class="row">
+                  <div class="col-9 col-lg-11 pr-0">
+                    <div class="form-group">
+                      <textarea class="form-control" id="comment-1" placeholder="Comentar..." rows="1"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-3 col-lg-1 pl-1">
+                    <button title="Enviar" class="btn c-btn"><img src="img/social/comment.png" class="c-img tiny" /></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Publicación Rammstein -->
+          <div class="row c-article flex-column">
+            <div class="row">
+              <!-- Contenedor de la imagen de la publicación -->
+              <div class="col-12 col-lg-6">
+                <img src="img/rammstein.jpg" class="img-thumbnail" />
+              </div>
+              <!-- Contenedor del texto de la publicación -->
+              <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+                <h3>De Alemania para el mundo - Rammstein</h3>
+                <p>Sus canciones están escritas casi exclusivamente en alemán aunque se pueden encontrar en inglés, francés e incluso español; y han vendido más de 50 millones de copias en todo el mundo.Entre otros reconocimientos, han sido nominados en dos ediciones de los premios Grammy en la categoría de mejor interpretación de metal: en 1999 con el tema «Du hast» (del álbum Sehnsucht) y en 2006 con «Mein Teil» (del álbum Reise, Reise). Han lanzado al mercado un total de seis álbumes de estudio y tres en directo, así como cinco DVD; toda su discografía se encuentra disponible en el catálogo de la multinacional discográfica Universal Music.</p>
+              </div>
+            </div>
+            <!-- Contenedor del área de comentarios -->
+            <div class="col-12 mt-3 mt-lg-0 px-0 px-sm-1">
+              <form>
+                <div class="row">
+                  <div class="col-9 col-lg-11 pr-0">
+                    <div class="form-group">
+                      <textarea class="form-control" id="comment-1" placeholder="Comentar..." rows="1"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-3 col-lg-1 pl-1">
+                    <button title="Enviar" class="btn c-btn"><img src="img/social/comment.png" class="c-img tiny" /></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Publicación Guns N´ Roses -->
+          <div class="row c-article flex-column">
+            <div class="row d-flex flex-column-reverse flex-lg-row-reverse">
+              <!-- Contenedor de la imagen de la publicación -->
+              <div class="col-12 col-lg-6">
+                <img src="img/guns.jpg" class="img-thumbnail" />
+              </div>
+              <!-- Contenedor del texto de la publicación -->
+              <div class="col-12 col-lg-6 mt-3 mt-lg-0">
+                <h3>Los clásicos Guns N´ Roses</h3>
+                <p>Guns N' Roses es una banda estadounidense de hard rock formada en Hollywood (Los Ángeles, California) en 1985. El grupo fue fundado por Axl Rose y el guitarrista rítmico Izzy Stradlin.</p>
+                <p>La formación actual cuenta con el vocalista Axl Rose, el guitarrista rítmico Richard Fortus, los tecladistas Dizzy Reed y Melissa Reese, el baterista Frank Ferrer, el bajista Duff McKagan y el guitarrista líder Slash, estos dos últimos, considerados miembros clásicos de la agrupación, retomaron su lugar en la banda después de 23 años.</p>
+              </div>
+            </div>
+            <!-- Contenedor del área de comentarios -->
+            <div class="col-12 mt-3 mt-lg-0 px-0 px-sm-1">
+              <form>
+                <div class="row">
+                  <div class="col-9 col-lg-11 pr-0">
+                    <div class="form-group">
+                      <textarea class="form-control" id="comment-1" placeholder="Comentar..." rows="1"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-3 col-lg-1 pl-1">
+                    <button title="Enviar" class="btn c-btn"><img src="img/social/comment.png" class="c-img tiny" /></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Contenedor para el buscador y la lista de opciones de búsqueda -->
+        <div class="col-12 col-md-4 col-lg-3 c-brown-light c-shadow rounded py-2 pr-ms-2 c-place-animation c-delay-2">
+          <!-- Contenedor del input de búsqueda -->
+          <div class="row">
+            <div class="col-12">
+              <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <div class="input-group-addon"><img src="img/find.png" class="c-img tiny" /></div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Buscar...">
+              </div>
+            </div>
+          </div>
+          <!-- Contenedor de la lista de opciones de búsqueda -->
+          <div class="row mt-3">
+            <div class="col-12">
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Welcome to the jungle
+                  <span class="badge badge-default badge-pill">new</span>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  November rain
+                  <span class="badge badge-default badge-pill">new</span>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Sweet Child O´Mine
+                  <small>3 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Welcome to the jungle
+                  <small>3 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Don't Cry
+                  <small>5 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Back off Bitch
+                  <small>6 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Don't Damn Me
+                  <small>6 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Du Hast
+                  <small>6 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Sonne
+                  <small>7 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Amerika
+                  <small>10 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  21 Guns
+                  <small>10 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Enter Sandman
+                  <small>15 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  One
+                  <small>24 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  Whiskey in the Jar
+                  <small>25 días</small>
+                </li>
+                <li class="list-group-item list-group-item-action justify-content-between">
+                  The Unforgiven
+                  <small>25 días</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- *BEGIN* - Realizamos la importación de scripts del framework Bootstrap - *BEGIN* -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <!-- *END* - Realizamos la importación de scripts del framework Bootstrap - *END* -->
+  </body>
+</html>

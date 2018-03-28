@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>La gastronomía mía</title>
+    <!-- Agregamos el css del framework Foundation -->
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <!-- Agregamos el css en blanco que nos da Foundation para las personalizaciones nuestras -->
+    <link rel="stylesheet" href="css/app.css">
+    <!-- Agregamos la relación de estilos de google para el uso de fuentes para texto -->
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  </head>
+  <body class="c-body">
+    <!-- Contenedor principal de la página -->
+    <div class="row expanded" id="container">
+      <!-- Fila contenedora del encabezado -->
+      <div class="row expanded">
+        <div class="columns small-12 medium-6 large-4">
+          <h1 class="c-title-text-font">¡Mis delicías!</h1>
+          <span>Aquí encuentras lo más rico... ¡siempre!</span>
+        </div>
+        <div class="columns medium-6 large-8 hide-for-small-only"></div>
+      </div>
+      <!-- Contenedor del cuerpo de la página -->
+      <div class="row expanded">
+        <!-- Contenedor de la columna izquierda de la página (buscador, favoritos, etc) -->
+        <div class="columns small-12 medium-5 large-4 c-container-style padding-1">
+          <!-- Contenedor del input de búsqueda -->
+          <div class="row expanded">
+            <form>
+              <div class="input-group">
+                <span class="input-group-label"><img src="img/find.png" class="tiny"/></span>
+                <input class="input-group-field" type="text" placeholder="Buscar...">
+              </div>
+            </form>
+          </div>
+          <!-- Contenedor del menú de opciones -->
+          <div class="row expanded margin-bottom-1">
+            <div class="columns small-10 large-8">
+              <ul class="menu vertical icons icon-left">
+                <li><a href="#"><span>Inicio</span></a></li>
+                <li><a href="#"><span>Nuevas recetas</span></a></li>
+                <li><a href="#"><span>Mas populares</span></a></li>
+                <li><a href="#"><span>Por regiones</span></a></li>
+                <li><a href="#"><span>Cerca de mi</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Contenedor de los favoritos -->
+          <div class="row expanded">
+            <div class="row expanded">
+              <h4>Favoritos:</h4>
+            </div>
+            <div class="row expanded c-favs">
+              <div class="columns small-6 large-4 expanded"><img src="img/fav1.jpg" class="thumbnail large" /></div>
+              <div class="columns small-6 large-4 expanded"><img src="img/fav2.jpg" class="thumbnail large" /></div>
+              <div class="columns small-6 large-4 expanded"><img src="img/fav3.jpg" class="thumbnail large" /></div>
+              <div class="columns small-6 large-4 expanded"><img src="img/fav4.jpg" class="thumbnail large" /></div>
+              <div class="columns small-6 large-4 expanded"><img src="img/fav5.jpg" class="thumbnail large" /></div>
+              <div class="columns small-6 large-4 expanded"><img src="img/fav6.jpg" class="thumbnail large" /></div>
+            </div>
+          </div>
+          <!-- Contenedor del historial -->
+          <div class="row expanded">
+            <div class="columns small-12 medium-11 large-10">
+              <fieldset class="fieldset padding-1">
+                <legend>Historial:</legend>
+                <ul class="c-history-list no-bullet">
+                  <li><a href="#">Lazaña italiana</a></li>
+                  <li><a href="#">Pasta al limón</a></li>
+                  <li><a href="#">Jugos desintoxicates</a></li>
+                  <li><a href="#">Las desventajas del aceite</a></li>
+                  <li><a href="#">¿Con que combinar el ajo?</a></li>
+                  <li><a href="#">Como hacer ajiaco</a></li>
+                </ul>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <!-- Contenedor de las publicaciones -->
+        <div class="columns small-12 medium-7 large-8">
+          <!-- Publicación #1 -->
+          <div class="row expanded">
+            <div class="columns small-12">
+              <div class="c-publish-container margin-bottom-2">
+                <div class="c-publish-header c-bk align-middle clearfix">
+                  <h3 class="float-left margin-left-1">Pasta pesto con brochetas...</h3>
+                  <small class="font-italic float-right margin-top-1 margin-right-2">24 de enero de 2018</small>
+                </div>
+                <div class="c-publish-image margin-bottom-1">
+                  <img src="img/publish-1.jpg" class="radius float-center" />
+                </div>
+                <div class="c-publish-content c-bk padding-1">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <!-- Contenedor de los comentarios -->
+                <div class="c-comments c-bk clearfix padding-left-1 padding-right-1">
+                  <div class="row expanded">
+                    <textarea class="margin-top-1 margin-bottom-0 padding-bottom-0" placeholder="Añade un comentario..."></textarea>
+                    <a class="button float-right" href="#">Publicar</a>
+                  </div>
+                  <div class="row expanded c-comments">
+                    <div class="row expanded c-comments">
+                      <p>
+                        <img src="img/female-user.png" class="small float-left margin-right-1" />
+                        <small class="font-italic">abuela0521:</small>
+                        Y si al final le añades un poco de parmesano :D
+                      </p>
+                    </div>
+                    <div class="row expanded c-comments">
+                      <p>
+                        <img src="img/female-user.png" class="small float-left margin-right-1" />
+                        <small class="font-italic">adri.gil2:</small>
+                        Siempre me han encantado las pastas, y más cuando están acompañadas de una deliciosa salsa, es una lastima que ahora sea de estomago tan delicado, disfrutenlo los que puedan :')
+                      </p>
+                    </div>
+                    <div class="row expanded c-comments">
+                      <p>
+                        <img src="img/male-user.png" class="small float-left margin-right-1" />
+                        <small class="font-italic">oscar-burguer:</small>
+                        Este plato me hace recordar a mi señora abuela, que ricos le quedaban!!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Publicación #2 -->
+          <div class="row expanded">
+            <div class="columns small-12">
+              <div class="c-publish-container margin-bottom-2">
+                <div class="c-publish-header c-bk align-middle clearfix">
+                  <h3 class="float-left margin-left-1">Nada mejor que un Brownie casero.</h3>
+                  <small class="font-italic float-right margin-top-1 margin-right-2">15 de enero de 2018</small>
+                </div>
+                <div class="c-publish-image margin-bottom-1">
+                  <img src="img/publish-2.jpg" class="radius float-center" />
+                </div>
+                <div class="c-publish-content c-bk padding-1">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <!-- Contenedor de los comentarios -->
+                <div class="c-comments c-bk clearfix padding-left-1 padding-right-1">
+                  <div class="row expanded">
+                    <textarea class="margin-top-1 margin-bottom-0 padding-bottom-0" placeholder="Añade un comentario..."></textarea>
+                    <a class="button float-right" href="#">Publicar</a>
+                  </div>
+                  <div class="row expanded c-comments">
+                    <div class="row expanded c-comments">
+                      <p>
+                        <img src="img/male-user.png" class="small float-left margin-right-1" />
+                        <small class="font-italic">el-chef.14:</small>
+                        Recuerden comer este plato en porciones mesuradas, cuidado con el azucar!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Publicación #3 -->
+          <div class="row expanded">
+            <div class="columns small-12">
+              <div class="c-publish-container margin-bottom-2">
+                <div class="c-publish-header c-bk align-middle clearfix">
+                  <h3 class="float-left margin-left-1">Sushi al mejor estilo oriental</h3>
+                  <small class="font-italic float-right margin-top-1 margin-right-2">08 de enero de 2018</small>
+                </div>
+                <div class="c-publish-image margin-bottom-1">
+                  <img src="img/publish-3.jpg" class="radius float-center" />
+                </div>
+                <div class="c-publish-content c-bk padding-1">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <!-- Contenedor de los comentarios -->
+                <div class="c-comments c-bk clearfix padding-left-1 padding-right-1">
+                  <div class="row expanded">
+                    <textarea class="margin-top-1 margin-bottom-0 padding-bottom-0" placeholder="Añade un comentario..."></textarea>
+                    <a class="button float-right" href="#">Publicar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agregamos los scripts necesarios por Foundation -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

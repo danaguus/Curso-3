@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <!-- Asociar fuente de google para la letra -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <!-- Asociamos el uso de los iconos de Materialeze framework -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.min.css" rel="stylesheet" media="screen,projection">
+    <link rel="stylesheet" href="css/custom-style.css">
+    <title>Conociendo el mundo</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Contenedor de encabezado de la página -->
+    <header>
+      <div class="row">
+        <div class="row header z-depth-5">
+          <!-- Banner, solo se visualiza en pantallas grandes (la puse para no dejar ese espacio en blanco tan amplio en pantallas grandes) -->
+          <div class="c-banner hide-on-med-and-down">
+            <img class="responsive-img" src="img/banner.png" alt="Viajeros unidos..." />
+          </div>
+          <!-- Contenedor de las opciones de menú principal -->
+          <div class="c-btn-group right-align">
+            <a class="waves-effect waves-light circle delay-5" title="Inicio"><i class="material-icons small">home</i></a>
+            <a class="waves-effect waves-light circle delay-4" title="Mis fotos"><i class="material-icons small">add_a_photo</i></a>
+            <a class="waves-effect waves-light circle delay-3" title="Lugares que he visitado"><i class="material-icons small">add_location</i></a>
+            <a class="waves-effect waves-light circle delay-2" title="Mis viajes por aire"><i class="material-icons small">airplanemode_active</i></a>
+            <a class="waves-effect waves-light circle delay-1" title="Mis viajes por tierra"><i class="material-icons small">airport_shuttle</i></a>
+          </div>
+        </div>
+        <!-- Contenedor del logo de la página -->
+        <div class="c-logo">
+          <img src="img/logo.png" alt="Nomadas"/>
+          <p class="truncate">Todo nos mueve, nada nos detiene...</p>
+        </div>
+      </div>
+    </header>
+    <!-- Contenedor principal de la página -->
+    <div class="container">
+      <!-- Contenedor de las imágenes de la galería de viajes -->
+      <div class="row">
+        <div class="col s12 m7 l8">
+          <div class="row">
+            <div class="col s12 m7 l8">
+              <div class="row">
+                <div class="col s12">
+                  <div class="card z-depth-5 ">
+                    <div class="card-image">
+                      <a class="btn-floating pulse c-details activator"><i class="material-icons">arrow_upward</i></a>
+                      <img src="img/viajes/amigos.jpg" class="responsive-img c-picture-galery" alt="" />
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">La playa amiga<i class="material-icons right">arrow_downward</i></span>
+                      <p class="grey-text">Aquí estuvimos de viaje por las playas de san antero, en coveñas, Colombia. Fue un fin de semana increible, con salto de puente incluido, lo único que nos falto fue más tiempo para seguir disfrutando.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12">
+                  <div class="card z-depth-5 ">
+                    <div class="card-image">
+                      <a class="btn-floating pulse c-details activator"><i class="material-icons">arrow_upward</i></a>
+                      <img src="img/viajes/cabalgata.jpg" class="responsive-img c-picture-galery" alt="" />
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">¡Arre!<i class="material-icons right">arrow_downward</i></span>
+                      <p class="grey-text">En una tarde de pesca, en el gaitero, esperando a los demás compañeros para dar un paseo a caballo, no hubieramos imaginado nunca que en un sitio de pesca hubiese un sendero tan atractivo para andar a caballo.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m5 l4">
+              <div class="row">
+                <div class="col s12">
+                  <div class="card z-depth-5 ">
+                    <div class="card-image">
+                      <a class="btn-floating pulse c-details activator"><i class="material-icons">arrow_upward</i></a>
+                      <img src="img/viajes/viernes.jpg" class="responsive-img c-picture-galery" alt="" />
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">¡Viernes!<i class="material-icons right">arrow_downward</i></span>
+                      <p class="grey-text">No hay nada mejor que una 3 cordilleras bien helada, aquella noche de amigos, música y cerveza fue increible.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12">
+                  <div class="card z-depth-5 ">
+                    <div class="card-image">
+                      <a class="btn-floating pulse c-details activator"><i class="material-icons">arrow_upward</i></a>
+                      <img src="img/viajes/extremo.jpg" class="responsive-img c-picture-galery" alt="" />
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">¡Extremo!.<i class="material-icons right">arrow_downward</i></span>
+                      <p class="grey-text">Arriesgando todo junto al amor de mi vida, disfrutando de una tarde de torrentismo juntos en el bello pueblo de Jardín - Antioquia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m5 l4">
+          <div class="card z-depth-5 ">
+            <div class="card-image">
+              <a class="btn-floating pulse c-details activator"><i class="material-icons">arrow_upward</i></a>
+              <img src="img/viajes/playa.jpg" class="responsive-img c-picture-galery" alt="" />
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Mis vacaciones<i class="material-icons waves-effect waves-block waves-light circle right">arrow_downward</i></span>
+              <p class="grey-text">Disfrutando de un tradicional "coco-loco" en las playas de la isla de San Andres, en unas inolvidables vacaciones familiares.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m8 l9">
+          <div class="row">
+            <!-- Contenedor de la publicación del acuario -->
+            <div class="row rounded indigo lighten-2">
+              <div class="col s12 m7 l5">
+                <img src="img/acuario.jpg" class="materialboxed c-img-publish z-depth-3" />
+              </div>
+              <div class="s12 m5 l7">
+                <h4 class="c-title-publish">Acuario</h4>
+                  <div class="chip">
+                    23 de Enero de 2015 <i class="material-icons tiny">date_range</i>
+                  </div>
+                  <div class="chip">
+                    San Andrés Islas <i class="material-icons tiny">location_on</i>
+                  </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+            <!-- Contenedor del formulario de comentarios -->
+            <div class="row rounded indigo lighten-1">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12 l6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_name" type="text" class="validate">
+                    <label for="icon_name">Nombre</label>
+                  </div>
+                  <div class="input-field col s12 l6">
+                    <i class="material-icons prefix">mail</i>
+                    <input id="icon_mail" type="tel" class="validate">
+                    <label for="icon_mail">Correo</label>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">comment</i>
+                      <textarea id="text-comment" class="materialize-textarea"></textarea>
+                      <label for="text-comment">Tu Comentario</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <a class="waves-effect waves-light btn right"><i class="material-icons right">send</i>Enviar</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Contenedor del perfil del autor -->
+        <div class="col s12 m4 l3">
+          <div class="row rounded brown lighten-4">
+            <div class="col s12 center-align">
+              <img src="img/man.png" class="circle c-profile purple lighten-5">
+            </div>
+            <div class="col s12">
+              <section>
+                <div class="center-align"><h5>Perfil del autor</h5></div>
+                <div class="divider">
+
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Elementos flotantes o fijos en puntos exactos de la página (fuera del contenedor principal) -->
+    <!-- Contenedor de las referencias de redes sociales -->
+    <div class="c-social-container z-depth-4">
+      <a href="#"><img src="img/social/ig.png" alt="Instagram"/></a>
+      <a href="#"><img src="img/social/sk.png" alt="Skype"/></a>
+      <a href="#"><img src="img/social/tt.png" alt="Twitter"/></a>
+      <a href="#"><img src="img/social/ws.png" alt="WhatsApp"/></a>
+      <a href="#"><img src="img/social/yt.png" alt="Youtube"/></a>
+    </div>
+  </body>
+</html>
